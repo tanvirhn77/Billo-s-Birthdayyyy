@@ -17,6 +17,16 @@ h2 {
     color: orange;
 }
 
+.navy-color {
+    color: rgb(56, 36, 170);
+}
+
+.red-color {
+    font-size: large;
+    color: red;
+
+}
+
 .flexible-container {
     display: flex;
     margin-bottom: 90px;
@@ -58,15 +68,49 @@ h2 {
     background-repeat: no-repeat;
 }
 
+.video-add {
+    background-image: url(images/exp-bg.png);
+    background-position-y: center;
+    background-repeat: no-repeat;
+
+
+}
+
 .experience-area {
     background-image: url(images/exp-bg.png);
     background-position-y: center;
     background-repeat: no-repeat;
 }
 
+#nd {
+    background-image: url(images/New\ Project\ \(2\).png);
+    background-position: 0%;
+    background-repeat: no-repeat;
+    border-left: 7px solid tomato;
+
+}
+
+#md {
+    border-left: 7px solid rgb(36, 250, 168);
+}
+
 
 .lp {
     padding-right: 120px;
+}
+
+.new-add {
+    width: 50%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+
+
+
 }
 
 .experience-item {
@@ -75,6 +119,7 @@ h2 {
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 20px;
+
     border-radius: 10px;
     box-shadow: 10px 10px 10px gray;
 
@@ -85,7 +130,7 @@ h2 {
 }
 
 #baby-web-developer {
-    border-left: 7px solid rgb(66, 180, 76);
+    border-left: 7px solid rgb(36, 250, 168);
 }
 
 footer p {
